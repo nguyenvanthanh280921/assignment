@@ -2,13 +2,14 @@
   "products": [
     {
       "id": "1",
-      "name": "Refined Steel Shoes wwwww",
+      "name": "Refined Steel Shoes wwwwwjghkjmhvb",
       "image": "https://chuyensiaothun.com.vn/wp-content/uploads/i5767-ao-thun-nam-mau-den-unisex-chu-mase-2020-6841.jpg.webp",
-      "price": "849.00",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+      "price": "849.00000",
+      "description": "Lorem ipsum dolughjghhjgcvhhhor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
       "status": false,
       "quantity": 82644,
-      "categoryID": "1"
+      "categoryID": "1",
+      "categoryId": "undefined"
     },
     {
       "id": "2",

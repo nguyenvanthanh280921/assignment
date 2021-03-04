@@ -7,13 +7,25 @@ const ProductEditPage = {
         console.log(id);
         const { data:product } = await ProductAPI.get(id);
         return /*html*/`
-            <form id="form-update-product">
-            <div class="mb-3">
-            <label for="product-name">Product Name</label>
-            <input type="text" class="form-control" id="product-name" value="${product.name}" aria-describedby="emailHelp">
+            <form id ="form-update-product">
+            <div class="form-group">
+                <input type ="text" placeholder="Tên Sản Phẩm" id="product-name"  value="${product.name}"  class="form-control"/>
             </div>
-            
-            <button type="submit" class="btn btn-primary">Update</button>
+            <div class="form-group">
+                <input type ="file" id="product-image" class="form-control"   value="${product.image}"/>
+            </div>
+            <div class="form-group">
+                <input type ="text" placeholder="Giá Sản Phẩm" id="product-price" class="form-control" value="${product.price}"/>
+            </div>
+            <div class="form-group">
+                <input type ="text" placeholder="Mô Tả Sản Phẩm" id="product-description" class="form-control" value="${product.description}"/>
+            </div>
+            <div class="form-group">
+                <input  placeholder="Categary" id="product-categoryId" class="form-control" value="${product.categoryId}"/>
+            </div>
+            <div class ="form-group">
+                <button type="submit" class="btn btn-primary">Update</button>
+            </div>
         </form>
         `
     },
@@ -26,7 +38,10 @@ const ProductEditPage = {
             console.log('old',product);
             const newProduct = {
                 ...product,
-                name: $('#product-name').value
+                name: $('#product-name').value,
+                price: $('#product-price').value,
+                description: $('#product-description').value,
+                categoryId: $('#product-categoryId').value,
             };
             ProductAPI.update(id, newProduct);
             window.location.hash = '/listproduct'
