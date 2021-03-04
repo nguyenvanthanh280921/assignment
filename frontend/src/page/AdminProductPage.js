@@ -14,13 +14,13 @@ const AdminProductPage = {
                 <h1 class="h2">Dashboard</h1>
                 <div class="btn-toolbar mb-2 mb-md-0">
                 <div class="btn-group mr-2">
-                    <button class="btn btn-sm btn-outline-secondary">Share</button>
-                    <button class="btn btn-sm btn-outline-secondary">Export</button>
+                    <td><a href="#/addproduct"><button class="btn btn-primary">Add</button></a></td>
+<!--                    <button class="btn btn-sm btn-outline-secondary">Export</button>-->
                 </div>
-                <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
-                    <span data-feather="calendar"></span>
-                    This week
-                </button>
+<!--                <button class="btn btn-sm btn-outline-secondary dropdown-toggle">-->
+<!--                    <span data-feather="calendar"></span>-->
+<!--                    This week-->
+<!--                </button>-->
                 </div>
             </div>
             <div class="table-responsive" id="list-products">

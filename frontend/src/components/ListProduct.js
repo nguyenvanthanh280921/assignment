@@ -26,10 +26,10 @@ const ListProduct = {
                         <td>${product.price}</td>
                         
                         <td>
-                            <a href="/#/product/${product.id}/edit" class="btn btn-primary">Update</a>
+                            <a href="/#/editproduct/${product.id}" class="btn btn-primary">Update</a>
                             <button class="btn btn-danger btn-remove" data-id="${product.id}">Remove </button>
                         </td>
-                        <td><a href="#/addproduct"><button class="btn btn-primary">Add</button></a></td>
+                        
                     </tr>
                 `
         }).join("")}   

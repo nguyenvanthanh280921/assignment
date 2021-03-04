@@ -8,7 +8,8 @@ import ProductAddPage from './page/ProductAddPage.js';
 import AdminProductPage from './page/AdminProductPage.js';
 import ContactPage from './page/ContactPage.js';
 import AboutPage from './page/AboutPage.js';
-import ProductEditPage from './page/ProductEditPage.js';
+import ProductEditPage from "./page/ProductEditPage";
+
 
 
 
@@ -21,7 +22,8 @@ const routers = {
     '/listproduct': AdminProductPage,
     '/contact': ContactPage,
     '/about': AboutPage,
-    '/editsproduct/:id': ProductEditPage
+    '/editproduct/:id': ProductEditPage
+
 
 
 

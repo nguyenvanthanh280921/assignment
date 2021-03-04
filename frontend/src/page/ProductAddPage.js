@@ -1,4 +1,5 @@
 import ProductAPI from '../api/productAPI.js';
+import ListProduct from "../components/ListProduct";
 import { $ } from '../utils.js';
 import firebase from "firebase";
 var firebaseConfig = {
@@ -47,7 +48,7 @@ const ProductAddPage = {
             let storageRef = firebase.storage().ref(`images/${productImage.name}`);
             storageRef.put(productImage).then(function () {
                 console.log('Upload thành công');
-                storageRef.getDownloadURL().then((url) => {
+                storageRef.getDownloadURL().then(async (url) => {
                     const product = {
                         id: Math.random().toString(36).substr(2, 9),
                         name: $('#product-name').value,
@@ -56,6 +57,7 @@ const ProductAddPage = {
 
                     console.log(product);
                     ProductAPI.add(product);
+                    window.location.href = '#/listProduct';
                 })
             })
             // const product = {

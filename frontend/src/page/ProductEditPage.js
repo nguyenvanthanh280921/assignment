@@ -1,27 +1,36 @@
+import ProductAPI from "../api/productAPI";
+import {parseRequesUrl, $} from "../utils";
 
 const ProductEditPage = {
     async render() {
-        return `
-            <form>
-            <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        const { id } = parseRequesUrl();
+        console.log(id);
+        const { data:product } = await ProductAPI.get(id);
+        return /*html*/`
+            <form id="form-update-product">
+            <div class="mb-3">
+            <label for="product-name">Product Name</label>
+            <input type="text" class="form-control" id="product-name" value="${product.name}" aria-describedby="emailHelp">
             </div>
-            <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            
+            <button type="submit" class="btn btn-primary">Update</button>
         </form>
         `
     },
     async afterRender() {
+        const { id } = parseRequesUrl();
+        const { data: product } = await ProductAPI.get(id);
 
+        $('#form-update-product').addEventListener('submit', (e) => {
+            e.preventDefault();
+            console.log('old',product);
+            const newProduct = {
+                ...product,
+                name: $('#product-name').value
+            };
+            ProductAPI.update(id, newProduct);
+            window.location.hash = '/listproduct'
+        })
     }
 }
 export default ProductEditPage;
