@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Refined Steel Shoes",
+      "image": "https://chuyensiaothun.com.vn/wp-content/uploads/i5767-ao-thun-nam-mau-den-unisex-chu-mase-2020-6841.jpg.webp",
+      "price": "849.00",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+      "status": false,
+      "quantity": 82644,
+      "categoryID": "1"
+    },
+    {
+      "id": "2",
+      "name": "Tasty Concrete Chips",
+      "image": "https://product.hstatic.net/200000163831/product/z2106102282114_c080aa6d40d4e931aaf54a4790f22fdd__1__78d04f71ade94996a93cfb269f2edbf9_master.jpg",
+      "price": "762.00",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+      "status": true,
+      "quantity": 57587,
+      "categoryID": "1"
+    },
+    {
+      "id": "1",
+      "name": "Refined Steel Shoes",
+      "image": "https://chuyensiaothun.com.vn/wp-content/uploads/i5767-ao-thun-nam-mau-den-unisex-chu-mase-2020-6841.jpg.webp",
+      "price": "849.00",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+      "status": false,
+      "quantity": 82644,
+      "categoryID": "1"
+    },
+    {
+      "id": "2",
+      "name": "Tasty Concrete Chips",
+      "image": "https://product.hstatic.net/200000163831/product/z2106102282114_c080aa6d40d4e931aaf54a4790f22fdd__1__78d04f71ade94996a93cfb269f2edbf9_master.jpg",
+      "price": "762.00",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+      "status": true,
+      "quantity": 57587,
+      "categoryID": "1"
+    },
+    {
+      "id": "3",
+      "name": "Awesome Soft Fish",
+      "image": "https://chuyensiaothun.com.vn/wp-content/uploads/I6407-Ao-Thun-Nam-Mau-Den-In-Mat-Cuoi.jpg",
+      "price": "633.00",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+      "status": false,
+      "quantity": 51117,
+      "categoryID": "1"
+    },
+    {
+      "id": "4",
+      "name": "Gorgeous Concrete Car",
+      "image": "https://chuyensiaothun.com.vn/wp-content/uploads/i5767-ao-thun-nam-mau-trang-unisex-chu-mase-3504.jpg.webp",
+      "price": "728.00",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+      "status": false,
+      "quantity": 56,
+      "categoryID": "2"
+    },
+    {
+      "id": "5",
+      "name": "Fantastic Fresh Fish",
+      "image": "https://chuyensiaothun.com.vn/wp-content/uploads/I6419-Ao-Thun-Unisex-Mau-Trang-In-Mieng-Banh.jpg",
+      "price": "364.00",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+      "status": true,
+      "quantity": 7373,
+      "categoryID": "1"
+    },
+    {
+      "id": "moz4hnzdf",
+      "name": "thanh dep zai",
+      "image": "C:\\fakepath\\itme.png",
+      "price": "50000",
+      "description": "dep",
+      "categoryId": "2"
+    }
+  ],
+  "categorys": [
+    {
+      "id": "1",
+      "name": "Áo phông"
+    },
+    {
+      "id": "2",
+      "name": "Áo dài"
+    }
+  ]
+}
