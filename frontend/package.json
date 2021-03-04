@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "filebase": "0.0.1",
     "firebase": "^8.2.9",
     "webpack": "^5.24.2",
     "webpack-cli": "^4.5.0",

@@ -38,7 +38,7 @@ const ListProduct = {
         `
     },
     async afterRender() {
-        const btns = $('#list-products .btn');
+        const btns = $('#list-products .btn-remove');
         console.log(btns);
         btns.forEach(btn => {
             const id = btn.dataset.id;

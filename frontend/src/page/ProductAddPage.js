@@ -1,5 +1,18 @@
 import ProductAPI from '../api/productAPI.js';
 import { $ } from '../utils.js';
+import firebase from "firebase";
+var firebaseConfig = {
+    apiKey: "AIzaSyBlkWM82lXWZzGoFdOC_lxgXhqnYbcfwhs",
+    authDomain: "serene-bliss-306402.firebaseapp.com",
+    projectId: "serene-bliss-306402",
+    storageBucket: "serene-bliss-306402.appspot.com",
+    messagingSenderId: "924123021428",
+    appId: "1:924123021428:web:999322d520244ae307d121",
+    measurementId: "G-DXTK58FG94"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 const ProductAddPage = {
     render() {
         return /*html*/`
@@ -33,8 +46,8 @@ const ProductAddPage = {
             const productImage = $('#product-image').files[0];
             let storageRef = firebase.storage().ref(`images/${productImage.name}`);
             storageRef.put(productImage).then(function () {
-                console.log('Upload thành công')
-                storageRef.getDownLoadURL().then((url) => {
+                console.log('Upload thành công');
+                storageRef.getDownloadURL().then((url) => {
                     const product = {
                         id: Math.random().toString(36).substr(2, 9),
                         name: $('#product-name').value,
