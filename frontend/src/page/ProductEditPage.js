@@ -1,11 +1,11 @@
 import ProductAPI from "../api/productAPI";
-import {parseRequesUrl, $} from "../utils";
+import { parseRequesUrl, $ } from "../utils";
 
 const ProductEditPage = {
     async render() {
         const { id } = parseRequesUrl();
         console.log(id);
-        const { data:product } = await ProductAPI.get(id);
+        const { data: product } = await ProductAPI.get(id);
         return /*html*/`
             <form id ="form-update-product">
             <div class="form-group">
@@ -35,7 +35,7 @@ const ProductEditPage = {
 
         $('#form-update-product').addEventListener('submit', (e) => {
             e.preventDefault();
-            console.log('old',product);
+            console.log('old', product);
             const newProduct = {
                 ...product,
                 name: $('#product-name').value,

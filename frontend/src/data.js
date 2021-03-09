@@ -1,164 +1,107 @@
 export default {
-    products: [
+    "products": [
         {
             "id": "1",
-            "name": "Refined Steel Shoes",
-            "image": "https://picsum.photos/640/480/abstract",
-            "price": "849.00",
+            "name": "Refined Steel Shoes wwwwwjghkjmhvb",
+            "image": "https://chuyensiaothun.com.vn/wp-content/uploads/i5767-ao-thun-nam-mau-den-unisex-chu-mase-2020-6841.jpg.webp",
+            "price": "849.00000",
+            "description": "Lorem ipsum dolughjghhjgcvhhhor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
             "status": false,
-            "quantity": 82644
+            "quantity": 82644,
+            "categoryID": "1",
+            "categoryId": "undefined"
         },
         {
             "id": "2",
             "name": "Tasty Concrete Chips",
-            "image": "https://picsum.photos/640/480/fashion",
+            "image": "https://product.hstatic.net/200000163831/product/z2106102282114_c080aa6d40d4e931aaf54a4790f22fdd__1__78d04f71ade94996a93cfb269f2edbf9_master.jpg",
             "price": "762.00",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
             "status": true,
-            "quantity": 57587
+            "quantity": 57587,
+            "categoryID": "1"
+        },
+        {
+            "id": "1",
+            "name": "Refined Steel Shoes",
+            "image": "https://chuyensiaothun.com.vn/wp-content/uploads/i5767-ao-thun-nam-mau-den-unisex-chu-mase-2020-6841.jpg.webp",
+            "price": "849.00",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+            "status": false,
+            "quantity": 82644,
+            "categoryID": "1"
+        },
+        {
+            "id": "2",
+            "name": "Tasty Concrete Chips",
+            "image": "https://product.hstatic.net/200000163831/product/z2106102282114_c080aa6d40d4e931aaf54a4790f22fdd__1__78d04f71ade94996a93cfb269f2edbf9_master.jpg",
+            "price": "762.00",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
+            "status": true,
+            "quantity": 57587,
+            "categoryID": "1"
         },
         {
             "id": "3",
             "name": "Awesome Soft Fish",
-            "image": "https://picsum.photos/640/480/fashion",
+            "image": "https://chuyensiaothun.com.vn/wp-content/uploads/I6407-Ao-Thun-Nam-Mau-Den-In-Mat-Cuoi.jpg",
             "price": "633.00",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
             "status": false,
-            "quantity": 51117
+            "quantity": 51117,
+            "categoryID": "1"
         },
         {
             "id": "4",
             "name": "Gorgeous Concrete Car",
-            "image": "https://picsum.photos/640/480/technics",
+            "image": "https://chuyensiaothun.com.vn/wp-content/uploads/i5767-ao-thun-nam-mau-trang-unisex-chu-mase-3504.jpg.webp",
             "price": "728.00",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
             "status": false,
-            "quantity": 56
+            "quantity": 56,
+            "categoryID": "2"
         },
         {
             "id": "5",
             "name": "Fantastic Fresh Fish",
-            "image": "https://picsum.photos/640/480/fashion",
+            "image": "https://chuyensiaothun.com.vn/wp-content/uploads/I6419-Ao-Thun-Unisex-Mau-Trang-In-Mieng-Banh.jpg",
             "price": "364.00",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore, doloribus cum quae voluptatum dignissimos magni quidem placeat expedita dolor unde impedit itaque architecto officia ad nulla assumenda molestiae adipisci!",
             "status": true,
-            "quantity": 7373
+            "quantity": 7373,
+            "categoryID": "1"
         },
         {
-            "id": "6",
-            "name": "Gorgeous Metal Soap",
-            "image": "https://picsum.photos/640/480/transport",
-            "price": "654.00",
-            "status": true,
-            "quantity": 26
+            "id": "l11qc58fk",
+            "name": "Thành xấu traiiiiiiiiiiiiiiiii",
+            "image": "https://firebasestorage.googleapis.com/v0/b/serene-bliss-306402.appspot.com/o/images%2F0c7d19352df3d5ad8ce2.jpg?alt=media&token=880c2c11-84d2-4ba0-a9e6-1a0205c94f3c",
+            "price": "123456",
+            "description": "rat dep",
+            "categoryId": "1"
         },
         {
-            "id": "7",
-            "name": "Tasty Fresh Pizza",
-            "image": "https://picsum.photos/640/480/fashion",
-            "price": "795.00",
-            "status": true,
-            "quantity": 61
+            "id": "bh52x802w",
+            "name": "I6419 Áo Thun Unisex Màu Trắng In Miếng Bánh",
+            "image": "https://firebasestorage.googleapis.com/v0/b/serene-bliss-306402.appspot.com/o/images%2Fcute.jpg?alt=media&token=969ce27f-2b69-4ff0-b8b3-15788cdf228f",
+            "price": "456789",
+            "description": "okokok",
+            "categoryId": "2"
         },
         {
-            "id": "8",
-            "name": "Tasty Concrete Towels",
-            "image": "https://picsum.photos/640/480/food",
-            "price": "513.00",
-            "status": false,
-            "quantity": 36
+            "id": "ufi3656q8",
+            "name": "thanh dep zaifsfdyhfyuljhdydhjgggjghgfg",
+            "image": "https://firebasestorage.googleapis.com/v0/b/serene-bliss-306402.appspot.com/o/images%2Fa.jpg?alt=media&token=1ced79b8-c90d-48cd-963b-c3ba036bb41d",
+            "price": "5000",
+            "description": "gygfjcghhvjhklhg",
+            "categoryId": "1"
         },
         {
-            "id": "9",
-            "name": "Awesome Metal Computer",
-            "image": "https://picsum.photos/640/480/food",
-            "price": "741.00",
-            "status": false,
-            "quantity": 29
-        },
-        {
-            "id": "10",
-            "name": "Small Rubber Cheese",
-            "image": "https://picsum.photos/640/480/animals",
-            "price": "471.00",
-            "status": true,
-            "quantity": 42
-        },
-        {
-            "id": "11",
-            "name": "Handcrafted Soft Salad",
-            "image": "https://picsum.photos/640/480/people",
-            "price": "824.00",
-            "status": true,
-            "quantity": 86
-        },
-        {
-            "id": "12",
-            "name": "Licensed Steel Soap",
-            "image": "https://picsum.photos/640/480/transport",
-            "price": "611.00",
-            "status": false,
-            "quantity": 14
-        },
-        {
-            "id": "13",
-            "name": "Handmade Frozen Ball",
-            "image": "https://picsum.photos/640/480/technics",
-            "price": "821.00",
-            "status": false,
-            "quantity": 64
-        },
-        {
-            "id": "14",
-            "name": "Handmade Plastic Table",
-            "image": "https://picsum.photos/640/480/food",
-            "price": "894.00",
-            "status": true,
-            "quantity": 94
-        },
-        {
-            "id": "15",
-            "name": "Generic Fresh Gloves",
-            "image": "https://picsum.photos/640/480/animals",
-            "price": "156.00",
-            "status": false,
-            "quantity": 13
-        },
-        {
-            "id": "16",
-            "name": "Generic Soft Keyboard",
-            "image": "https://picsum.photos/640/480/people",
-            "price": "933.00",
-            "status": true,
-            "quantity": 64
-        },
-        {
-            "id": "17",
-            "name": "Intelligent Granite Table",
-            "image": "https://picsum.photos/640/480/fashion",
-            "price": "694.00",
-            "status": false,
-            "quantity": 65
-        },
-        {
-            "id": "18",
-            "name": "Small Soft Shirt",
-            "image": "https://picsum.photos/640/480/nightlife",
-            "price": "797.00",
-            "status": false,
-            "quantity": 22
-        },
-        {
-            "id": "19",
-            "name": "Rustic Metal Table",
-            "image": "https://picsum.photos/640/480/transport",
-            "price": "841.00",
-            "status": false,
-            "quantity": 98
-        },
-        {
-            "id": "20",
-            "name": "Incredible Soft Mouse",
-            "image": "https://picsum.photos/640/480/people",
-            "price": "828.00",
-            "status": false,
-            "quantity": 63
+            "id": "n3b57vwws",
+            "name": "Product new",
+            "price": "500000000",
+            "description": "wonderful",
+            "categoryId": "2",
+            "image": "https://firebasestorage.googleapis.com/v0/b/serene-bliss-306402.appspot.com/o/images%2Faokhoac.jpg?alt=media&token=3d288571-5e63-4a00-935a-9c22d4bee458"
         }
     ]
 }

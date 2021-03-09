@@ -52,6 +52,9 @@ const ProductAddPage = {
                     const product = {
                         id: Math.random().toString(36).substr(2, 9),
                         name: $('#product-name').value,
+                        price: $('#product-price').value,
+                        description: $('#product-description').value,
+                        categoryId: $('#product-categoryId').value,
                         image: url
                     };
 

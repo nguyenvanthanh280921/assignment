@@ -9,14 +9,17 @@ const CategoryAPI = {
         const url = `/categorys/${id}`;
         return axiosClient.get(url);
     },
-    add() {
-
+    add(product) {
+        const url = '/categorys/';
+        return axiosClient.post(url, product);
     },
-    remove() {
-
+    remove(id) {
+        const url = `/categorys/${id}`;
+        return axiosClient.delete(url);
     },
-    upload() {
-
+    update(id, data) {
+        const url = `/categorys/${id}`;
+        return axiosClient.put(url, data);
     }
 }
 export default CategoryAPI;
