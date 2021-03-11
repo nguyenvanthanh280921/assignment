@@ -54,7 +54,7 @@ const ProductAddPage = {
                         name: $('#product-name').value,
                         price: $('#product-price').value,
                         description: $('#product-description').value,
-                        categoryId: $('#product-categoryId').value,
+                        categoryID: $('#product-categoryId').value,
                         image: url
                     };
 

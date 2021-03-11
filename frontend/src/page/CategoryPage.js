@@ -18,7 +18,6 @@ const CategoryPage = {
             </div>
         </div>
             
-            
             `
         }).join("");
         return `${result}`

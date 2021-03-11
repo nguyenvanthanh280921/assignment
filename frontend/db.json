@@ -8,11 +8,10 @@
       "description": "Áo thun Đôi unisex in hình và chữ với hơn 6293 mẫu đa dạng cho bạn thoải mái lựa chọn",
       "status": false,
       "quantity": 82644,
-      "categoryID": "1",
-      "categoryId": "undefined"
+      "categoryID": "1"
     },
     {
-      "id": "1",
+      "id": "2",
       "name": "I6407 Áo Thun Màu Vàng Nghệ In Mặt Cười",
       "image": "https://chuyensiaothun.com.vn/wp-content/uploads/I6407-Ao-Thun-Mau-Vang-Nghe-In-Mat-Cuoi.jpg",
       "price": "849.00",
@@ -30,6 +29,14 @@
       "status": false,
       "quantity": 51117,
       "categoryID": "1"
+    },
+    {
+      "id": "4",
+      "name": "Gorgeous Metal Soapouy",
+      "price": "55000",
+      "description": "abcdefghiklm",
+      "categoryID": "2",
+      "image": "https://firebasestorage.googleapis.com/v0/b/serene-bliss-306402.appspot.com/o/images%2Faokhoac.jpg?alt=media&token=d42725d1-ed7f-4413-acbc-5810f25e121d"
     }
   ],
   "categorys": [
