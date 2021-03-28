@@ -37,7 +37,7 @@ const ProductEditPage = {
             e.preventDefault();
             console.log('old', product);
             const newProduct = {
-                ...product,
+                ...product,//lay het sp 
                 name: $('#product-name').value,
                 price: $('#product-price').value,
                 description: $('#product-description').value,

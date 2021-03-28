@@ -32,11 +32,12 @@
     },
     {
       "id": "4",
-      "name": "Gorgeous Metal Soapouy",
+      "name": "Gorgeous Metal Soapouysgasdg",
       "price": "55000",
       "description": "abcdefghiklm",
       "categoryID": "2",
-      "image": "https://firebasestorage.googleapis.com/v0/b/serene-bliss-306402.appspot.com/o/images%2Faokhoac.jpg?alt=media&token=d42725d1-ed7f-4413-acbc-5810f25e121d"
+      "image": "https://firebasestorage.googleapis.com/v0/b/serene-bliss-306402.appspot.com/o/images%2Faokhoac.jpg?alt=media&token=d42725d1-ed7f-4413-acbc-5810f25e121d",
+      "categoryId": "undefined"
     }
   ],
   "categorys": [
